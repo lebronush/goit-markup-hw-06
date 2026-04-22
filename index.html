@@ -40,9 +40,42 @@
                         </li>
                     </ul>
                 </address>
+                <button class="burger-btn" type="button">
+                    <svg class="burger-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+                    </svg>
+                </button>
+                <div class="mobile-menu is-open">
+                    <div class="container mobile-menu-container">
+                        <button class="mobile-close" type="button">
+                            <svg class="mobile-close-icon" width="8" height="8">
+                                <use href="./images/icons.svg#icon-close-black-18dp21"></use>
+                            </svg>
+                        </button>
+                        <nav class="mobile-nav">
+                            <ul class="mobile-nav-list">
+                                <li class="mobile-list"></li>
+                                <li class="mobile-list"></li>
+                                <li class="mobile-list"></li>
+                            </ul>
+                        </nav>
+                        <address class="mobile-contacts">
+                            <ul class="mobile-contacts-list">
+                                <li class="mobile-link"></li>
+                                <li class="mobile-link"></li>
+                            </ul>
+                        </address>
+                        <ul class="mobile-socials">
+                            <li class="mobile-socials-list"></li>
+                            <li class="mobile-socials-list"></li>
+                            <li class="mobile-socials-list"></li>
+                            <li class="mobile-socials-list"></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </header>
-        <main>
+        <main class="hidden">
             <section class="hero-image">
                 <div class="container container-logo">
                     <h1 class="logo">Effective Solutions for Your Business</h1>
@@ -395,7 +428,7 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer hidden">
             <div class="container footer-block">
                 <div class="container-footer">
                     <a class="logo-bottom" href="./index.html">
@@ -461,7 +494,7 @@
             </div>
         </footer>
 
-        <div class="backdrop" data-modal>
+        <div class="backdrop hidden" data-modal>
             <div class="modal">
                 <button class="close" type="button" data-modal-close>
                     <svg class="close-icon" width="8" height="8">
