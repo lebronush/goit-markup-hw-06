@@ -88,62 +88,10 @@
     align-items: center;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .motivation-sheet {
     display: flex;
     align-items: center;
     gap: 24px;
-}
-
-.our-team {
-    background-color: #f4f4fd;
-    text-align: center;
-    padding: 120px 0;
-}
-
-.heading-our-team {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 72px;
-}
-
-.card-list {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
-
-.teams {
-    padding: 32px 16px;
-}
-
-.card-one,
-.card-two,
-.card-three,
-.card-four {
-    flex: 0 0 calc((100% - 3 * 24px) / 4);
-    background-color: #ffffff;
-    border-radius: 0 0 4px 4px;
-    box-shadow:
-        0 2px 1px 0 rgba(46, 47, 66, 0.08),
-        0 1px 1px 0 rgba(46, 47, 66, 0.16),
-        0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .heading {
@@ -162,6 +110,43 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+}
+
+.card-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+    flex: 0 0 calc((100% - 3 * 24px) / 4);
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    box-shadow:
+        0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.teams {
+    padding: 32px 16px;
+}
+
+.our-team {
+    background-color: #f4f4fd;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.heading-our-team {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .icon-team {
@@ -327,8 +312,6 @@
 }
 
 .footer-link {
-    /* margin-right: 80px; */
-    /* margin: 0 auto; */
     padding: 0;
 }
 
@@ -350,13 +333,11 @@
 .subscribe-form {
     display: flex;
     align-items: center;
-    /* gap: 24px; */
 
     margin-left: 0;
 }
 
 .icon-team.icon-footer {
-    /* margin-top: 16px; */
     gap: 16px;
 }
 
@@ -373,10 +354,7 @@
     display: flex;
     flex-direction: column;
 
-    /* margin: 0; */
-    /* width: 453px; */
     margin-left: auto;
-    /* width: 100%; */
     padding: 0;
 }
 .email-address {
@@ -396,7 +374,6 @@
     border: 1px solid #fff;
     border-radius: 4px;
     padding-left: 16px;
-    /* margin-top: 16px; */
     width: 264px;
     height: 40px;
 
@@ -419,7 +396,6 @@
 
     border-radius: 4px;
     border: none;
-    /* padding: 8px 24px; */
     margin-left: 24px;
     min-width: 165px;
     height: 40px;
@@ -548,8 +524,6 @@
     color: #2e2f42;
 
     margin-bottom: 16px;
-
-    /* margin: 72px 24px 16px; */
 }
 
 .modal-user {
