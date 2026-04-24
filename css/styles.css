@@ -1204,10 +1204,6 @@ img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
-    transition:
-        opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop:not(.is-open) .modal {
@@ -1226,7 +1222,6 @@ img {
     left: 50%;
 
     transform: translate(-50%, -50%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     width: 288px;
     min-height: 584px;
@@ -1255,10 +1250,6 @@ img {
     height: 24px;
 
     background-color: #e7e9fc;
-
-    transition:
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-icon {
@@ -1380,10 +1371,6 @@ img {
     padding: 4px 3px;
     margin-right: 8px;
 
-    transition:
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     width: 16px;
     height: 16px;
 }
@@ -1391,7 +1378,6 @@ img {
 .checkbox-icon {
     /* opacity: 0; */
     fill: transparent;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .privacy {
@@ -1492,5 +1478,15 @@ img {
         transition:
             background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .button-modal {
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .button-modal:hover,
+    .button-modal:focus {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background-color: #404bbf;
     }
 }
