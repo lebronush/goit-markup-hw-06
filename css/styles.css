@@ -469,7 +469,7 @@ img {
     max-width: 320px;
     /* height: 432px; */
     margin: auto;
-    padding: 72px 36px;
+    padding: 72px 0;
 }
 
 @media (min-resolution: 2dppx) {
@@ -660,7 +660,6 @@ img {
         color: #434455;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        margin-bottom: 8px;
     }
 }
 /* -----------------------our team----------------------- */
@@ -744,10 +743,9 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    .our-team {
-        padding: 96px 92px;
+    .container-team {
+        padding: 0 92px;
     }
-
     .card-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -783,7 +781,6 @@ img {
 }
 .section-portfolio {
     padding: 96px 0;
-    max-width: 320px;
 }
 
 .our-portfolio {
@@ -838,6 +835,10 @@ img {
         max-width: 768px;
     }
 
+    .container {
+        max-width: 768px;
+    }
+
     .portfolio-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -854,11 +855,12 @@ img {
         display: flex;
     }
 
-    .section-portfolio {
-        padding: 120px 0;
+    .container {
+        max-width: 1158px;
     }
 
     .section-portfolio {
+        padding: 120px 0;
         max-width: 100%;
     }
 
