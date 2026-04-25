@@ -406,6 +406,10 @@ img {
     gap: 24px;
 }
 
+.mobile-contacts-link.mobile-tel {
+    color: #4d5ae5;
+}
+
 .mobile-contacts-link {
     text-decoration: none;
     font-style: normal;
@@ -660,6 +664,7 @@ img {
 
     .paragraph {
         font-family: 'Roboto', sans-serif;
+        font-weight: 400;
         color: #434455;
         line-height: 1.5;
         letter-spacing: 0.02em;
