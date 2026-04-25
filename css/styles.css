@@ -832,6 +832,7 @@ img {
 @media screen and (min-width: 768px) {
     .section-portfolio {
         max-width: 768px;
+        margin: 0 auto;
     }
 
     .container {
@@ -842,10 +843,6 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 72px 24px;
-    }
-
-    .list-portfolio {
-        max-width: 768px;
     }
 }
 
