@@ -124,7 +124,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    .burger-icon {
+    .burger-btn {
         display: none;
     }
 
@@ -472,6 +472,12 @@ img {
     padding: 72px 36px;
 }
 
+@media (min-resolution: 2dppx) {
+    .hero-image {
+        background-image: url(../images/people-office2x.jpg);
+    }
+}
+
 .container-logo {
     display: flex;
     flex-direction: column;
@@ -480,7 +486,8 @@ img {
 }
 
 .logo {
-    max-width: 496px;
+    max-width: 320px;
+    margin: 0 auto;
 
     text-align: center;
     font-weight: 700;
@@ -609,11 +616,6 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-    .container-features {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-
     .motivation-sheet {
         display: flex;
         flex-direction: row;
@@ -869,6 +871,7 @@ img {
     }
 
     .list-portfolio {
+        box-shadow: none;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
         /* width: calc((100% - 48px) / 3); */
