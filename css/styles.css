@@ -588,6 +588,9 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+
+    margin-bottom: 8px;
+    /* margin: 8px 0; */
 }
 
 .paragraph {
@@ -596,8 +599,6 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-    margin-top: 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -617,6 +618,9 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
+    .our-features {
+        padding: 120px 0;
+    }
     .motivation-sheet {
         display: flex;
         flex-direction: row;
@@ -680,17 +684,23 @@ img {
 }
 
 .card-list {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 72px; */
+    display: grid;
     gap: 72px;
+    grid-template-columns: 1fr;
 }
 
 .card-one,
 .card-two,
 .card-three,
 .card-four {
-    flex: 0 0 calc((100% - 3 * 24px) / 4);
+    max-width: 264px;
+    width: 100%;
+    margin: 0 auto;
+    /* flex: 0 0 calc((100% - 3 * 24px) / 4); */
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     box-shadow:
@@ -746,7 +756,7 @@ img {
         padding: 0 92px;
     }
     .card-list {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: repeat(2, 1fr);
         gap: 64px 24px;
     }
@@ -761,10 +771,16 @@ img {
         padding: 120px 0;
     }
 
+    .container-team {
+        padding: 0;
+    }
+
     .card-list {
-        display: flex;
+        /* display: flex;
         flex-direction: row;
         align-items: center;
+        gap: 24px; */
+        grid-template-columns: repeat(4, 1fr);
         gap: 24px;
     }
 
