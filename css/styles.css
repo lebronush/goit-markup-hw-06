@@ -470,8 +470,6 @@ img {
 
     text-align: center;
 
-    /* height: 432px; */
-
     padding: 72px 0;
 }
 
@@ -594,7 +592,6 @@ img {
     text-align: center;
 
     margin-bottom: 8px;
-    /* margin: 8px 0; */
 }
 
 .paragraph {
@@ -689,10 +686,6 @@ img {
 }
 
 .card-list {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 72px; */
     display: grid;
     gap: 72px;
     grid-template-columns: 1fr;
@@ -705,7 +698,6 @@ img {
     max-width: 264px;
     width: 100%;
     margin: 0 auto;
-    /* flex: 0 0 calc((100% - 3 * 24px) / 4); */
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
     box-shadow:
@@ -761,7 +753,6 @@ img {
         padding: 0 92px;
     }
     .card-list {
-        /* display: grid; */
         grid-template-columns: repeat(2, 1fr);
         gap: 64px 24px;
     }
@@ -781,10 +772,6 @@ img {
     }
 
     .card-list {
-        /* display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 24px; */
         grid-template-columns: repeat(4, 1fr);
         gap: 24px;
     }
@@ -890,8 +877,6 @@ img {
     .list-portfolio {
         box-shadow: none;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-        /* width: calc((100% - 48px) / 3); */
     }
 
     .list-portfolio:hover {
@@ -1385,7 +1370,6 @@ img {
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
 
-    /* fill: transparent; */
     background-color: transparent;
     padding: 4px 3px;
     margin-right: 8px;
@@ -1395,7 +1379,6 @@ img {
 }
 
 .checkbox-icon {
-    /* opacity: 0; */
     fill: transparent;
 }
 
